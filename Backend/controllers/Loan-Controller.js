@@ -30,7 +30,7 @@ router.post("/loan", async (req, res) => {
 
 router.get("/loans", async (req, res) => {
     try {
-        const loan = await Loans.find();
+        const loan = await Loans.find().maxTimeMS(5000); 
         return res.status(200).json(loan);
     } 
     catch (error) {
