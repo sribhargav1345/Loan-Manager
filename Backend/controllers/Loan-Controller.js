@@ -39,7 +39,7 @@ router.get("/loans", async (req, res) => {
     }
 });
 
-router.get("/loans/:userId", async (req, res) => {
+router.get("/loan/:userId", async (req, res) => {
     try {
         const loan = await Loans.findAll({ userId: userId });
         return res.status(200).json(loan);
