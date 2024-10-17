@@ -8,7 +8,7 @@ export default function LoanTable() {
   useEffect(() => {
     const loadLoans = async () => {
         try {
-            const data = await fetch("http://localhost:5000/api/loans", {
+            const data = await fetch("https://loan-manager-pilb.onrender.com/api/loans", {
                 method: "GET",
                 headers: {
                     'Content-Type': 'application/json'
