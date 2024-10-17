@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f5c2d;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+}
+
+.header-icon {
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+/* Updated profile section */
+.header-profile {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.profile-text {
+    margin-left: 8px; /* Space between profile image and text */
+    font-size: 16px;
+    color: #1f5c2d;
+    font-weight: bold;
+}
