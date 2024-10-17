@@ -5,8 +5,8 @@ dotenv.config();
 
 const mongoDB = async() => {
 
-    const USERNAME = LoanManager;
-    const PASSWORD = LoanManager;
+    const USERNAME = "LoanManager";
+    const PASSWORD = "LoanManager";
 
     const mongoURL = `mongodb+srv://${USERNAME}:${PASSWORD}@loanmanager.bpqhm.mongodb.net/?retryWrites=true&w=majority&appName=LoanManager`;
 
